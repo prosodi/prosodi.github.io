@@ -3,13 +3,14 @@
 <head>
 <title>Pro Sosio-Demokrasi Indonesia</title>
 <meta charset='utf-8'/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 <style>
 body{
 	background:red;
 	margin:0;
 	padding:0;
 }
-#logo{
+#msg{
 	position:absolute;
 	top:50%;
 	left:50%;
@@ -17,14 +18,35 @@ body{
 	height:162px;
 	background:transparent url(logo.png) 0 0 no-repeat;
 	margin-left:-120px;
-	margin-top:-81px;
+	margin-top:-100px;
 	border:1px solid green;
 	border-radius:4px;
 	box-shadow:0 0 4px 2px #09AA43;
 }
+#msg p{
+	margin-top:168px;
+	padding:4px;
+	color:yellow;
+	color:#FEFFCA;
+	font:normal bold 12px/1.2em 'Source Code Pro', monospace;
+	text-shadow:0 0 4px blue;
+}
+#msg a,#msg a:visited{
+	color:yellow;
+	text-decoration:none;
+}
+#msg a:hover{
+	color:#CFCF00;
+}
 </style>
 </head>
 <body>
-<div id='logo'></div>
+<div id='msg'>
+	<p>
+		If you find this <a target='_blank' href='https://youtu.be/CDeG4S-mJts'>video</a> mildly amusing,
+		stay tuned to the <a href='https://github.com/prosodi'>organization page</a>. Otherwise, start
+		from the <a href='https://github.com/prosodi/prosodi.github.io/wiki'>base wiki</a>.
+	</p>
+</div>
 </body>
 </html>
